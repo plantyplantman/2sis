@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Address from '$lib/components/Address.svelte';
+	import Cta from '$lib/components/CTA.svelte';
 </script>
 
 <div class="container h-full mx-auto flex justify-center lg:mt-20 mt-10">
@@ -17,21 +18,11 @@
 			<Address />
 		</div>
 
-		<section>
-			<a
-				href="https://www.google.com/maps/place/Two+Sisters+Lao+Thai+Cuisine/@-35.2499346,149.1350603,17z/data=!3m2!4b1!5s0x6b1652ed2d5e5f17:0x6f46028a6a884c5b!4m6!3m5!1s0x6b1652ed44192745:0x19d5c36c013c76!8m2!3d-35.2499346!4d149.1376352!16s%2Fg%2F1vg4jz59?entry=ttu"
-				class="btn variant-filled-primary rounded-md m-2">Catering</a
-			>
-			<a
-				href="https://www.google.com/maps/place/Two+Sisters+Lao+Thai+Cuisine/@-35.2499346,149.1350603,17z/data=!3m2!4b1!5s0x6b1652ed2d5e5f17:0x6f46028a6a884c5b!4m6!3m5!1s0x6b1652ed44192745:0x19d5c36c013c76!8m2!3d-35.2499346!4d149.1376352!16s%2Fg%2F1vg4jz59?entry=ttu"
-				class="btn variant-filled-primary rounded-md m-2">Order</a
-			>
-			<a
-				href="https://food.google.com/chooseprovider?restaurantId=/g/1vg4jz59&g2lbs=ALIxsqrTOPfBVdx3E-fl4ms0a0kZ-9_UybVc7TwJnylbnga5VLDtEcG8htYLBoZEGVz_tTRd7D4FpYBWw3-qDWWW7uLaxaNtpv85yNKdteKJtruYm-jCMVs%3D&hl=en-AU&gl=au&ssta=1&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=f18AZJHjJYSM-AbI8Lr4Aw&ei=f18AZJHjJYSM-AbI8Lr4Aw&fo_s=OA,AH&orderType=2&sei=CUoJoCgtD4iTEa45B1MKrgTt"
-				class="btn variant-filled-primary rounded-md m-2">Menu</a
-			>
-			<a href="/reservations" class="btn variant-filled-primary rounded-md m-2">Reserve</a>
-		</section>
+		<a
+			href="https://food.google.com/chooseprovider?restaurantId=/g/1vg4jz59&g2lbs=ALIxsqrTOPfBVdx3E-fl4ms0a0kZ-9_UybVc7TwJnylbnga5VLDtEcG8htYLBoZEGVz_tTRd7D4FpYBWw3-qDWWW7uLaxaNtpv85yNKdteKJtruYm-jCMVs%3D&hl=en-AU&gl=au&ssta=1&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=f18AZJHjJYSM-AbI8Lr4Aw&ei=f18AZJHjJYSM-AbI8Lr4Aw&fo_s=OA,AH&orderType=2&sei=CUoJoCgtD4iTEa45B1MKrgTt"
+			class="btn btn-xl variant-filled-primary rounded-md m-2">Menu</a
+		>
+		<Cta />
 		<!-- Animated Logo -->
 		<figure>
 			<section class="img-bg" />

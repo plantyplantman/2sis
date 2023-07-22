@@ -26,45 +26,70 @@
 				<TwoSistersLogo class="max-w-xs mb-4 mt-4" />
 				<button class="btn btn-lg ml-auto" on:click={() => drawerStore.close()}>X</button>
 			</div>
-			<button class="btn btn-lg variant-filled-surface w-full">
-				<a href="/location" class="w-full"> <span class="flex-auto">Location</span></a>
-			</button>
+			<a
+				href="/location"
+				class="w-full btn btn-lg variant-filled-surface"
+				on:click={() => drawerStore.close()}
+			>
+				<span class="flex-auto">Location</span></a
+			>
 			<hr />
-			<button class="btn btn-lg variant-filled-surface w-full">
-				<a href="/hours"> <span class="flex-auto">Hours</span></a>
-			</button>
+			<a
+				href="/hours"
+				class="btn btn-lg variant-filled-surface w-full"
+				on:click={() => drawerStore.close()}
+			>
+				<span class="flex-auto">Hours</span></a
+			>
 			<hr />
-			<button class="btn btn-lg variant-filled-surface w-full">
-				<a href="/about"> <span class="flex-auto">About </span></a>
-			</button>
+			<a
+				href="/about"
+				class="btn btn-lg variant-filled-surface w-full"
+				on:click={() => drawerStore.close()}
+			>
+				<span class="flex-auto">About </span></a
+			>
 			<hr />
-			<button class="btn btn-lg variant-filled-surface w-full">
-				<a href="/contact"> <span class="flex-auto">Contact </span></a>
-			</button>
+			<a
+				href="/contact"
+				class="btn btn-lg variant-filled-surface w-full"
+				on:click={() => drawerStore.close()}
+			>
+				<span class="flex-auto">Contact </span></a
+			>
 			<hr />
-			<button class="btn btn-lg variant-filled-surface w-full">
-				<a href="/catering"> <span class="flex-auto">Catering </span></a>
-			</button>
+			<a
+				href="/catering"
+				class="btn btn-lg variant-filled-surface w-full"
+				on:click={() => drawerStore.close()}
+			>
+				<span class="flex-auto">Catering </span></a
+			>
 			<hr />
-			<button class="btn btn-lg variant-filled-surface w-full">
-				<a
-					href="https://food.google.com/chooseprovider?restaurantId=/g/1vg4jz59&g2lbs=ALIxsqrTOPfBVdx3E-fl4ms0a0kZ-9_UybVc7TwJnylbnga5VLDtEcG8htYLBoZEGVz_tTRd7D4FpYBWw3-qDWWW7uLaxaNtpv85yNKdteKJtruYm-jCMVs%3D&hl=en-AU&gl=au&ssta=1&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=f18AZJHjJYSM-AbI8Lr4Aw&ei=f18AZJHjJYSM-AbI8Lr4Aw&fo_s=OA,AH&orderType=2&sei=Cd-p6i5KI4WZEZbxVCS6K-eB"
-				>
-					<span class="flex-auto">Menu </span></a
-				>
-			</button>
+			<a
+				href="https://food.google.com/chooseprovider?restaurantId=/g/1vg4jz59&g2lbs=ALIxsqrTOPfBVdx3E-fl4ms0a0kZ-9_UybVc7TwJnylbnga5VLDtEcG8htYLBoZEGVz_tTRd7D4FpYBWw3-qDWWW7uLaxaNtpv85yNKdteKJtruYm-jCMVs%3D&hl=en-AU&gl=au&ssta=1&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=f18AZJHjJYSM-AbI8Lr4Aw&ei=f18AZJHjJYSM-AbI8Lr4Aw&fo_s=OA,AH&orderType=2&sei=Cd-p6i5KI4WZEZbxVCS6K-eB"
+				class="btn btn-lg variant-filled-surface w-full"
+				on:click={() => drawerStore.close()}
+			>
+				<span class="flex-auto">Menu </span></a
+			>
 			<hr />
-			<button class="btn btn-lg variant-filled-surface w-full">
-				<a href="/reservations"> <span class="flex-auto">Reserve </span></a>
-			</button>
+			<a
+				href="/reservations"
+				class="btn btn-lg variant-filled-surface w-full"
+				on:click={() => drawerStore.close()}
+			>
+				<span class="flex-auto">Reserve </span></a
+			>
 			<hr />
-			<button class="btn btn-lg variant-filled-surface w-full">
-				<a
-					href="https://food.google.com/chooseprovider?restaurantId=/g/1vg4jz59&g2lbs=ALIxsqrTOPfBVdx3E-fl4ms0a0kZ-9_UybVc7TwJnylbnga5VLDtEcG8htYLBoZEGVz_tTRd7D4FpYBWw3-qDWWW7uLaxaNtpv85yNKdteKJtruYm-jCMVs%3D&hl=en-AU&gl=au&ssta=1&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=f18AZJHjJYSM-AbI8Lr4Aw&ei=f18AZJHjJYSM-AbI8Lr4Aw&fo_s=OA,AH&orderType=2&sei=Cd-p6i5KI4WZEZbxVCS6K-eB"
-				>
-					<span class="flex-auto">Order </span></a
-				>
-			</button>
+
+			<a
+				href="https://food.google.com/chooseprovider?restaurantId=/g/1vg4jz59&g2lbs=ALIxsqrTOPfBVdx3E-fl4ms0a0kZ-9_UybVc7TwJnylbnga5VLDtEcG8htYLBoZEGVz_tTRd7D4FpYBWw3-qDWWW7uLaxaNtpv85yNKdteKJtruYm-jCMVs%3D&hl=en-AU&gl=au&ssta=1&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=f18AZJHjJYSM-AbI8Lr4Aw&ei=f18AZJHjJYSM-AbI8Lr4Aw&fo_s=OA,AH&orderType=2&sei=Cd-p6i5KI4WZEZbxVCS6K-eB"
+				class="btn btn-lg variant-filled-surface w-full"
+				on:click={() => drawerStore.close()}
+			>
+				<span class="flex-auto">Order </span></a
+			>
 		</div>
 	{/if}
 </Drawer>
