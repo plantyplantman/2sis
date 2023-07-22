@@ -27,7 +27,7 @@
 				<button class="btn btn-lg ml-auto" on:click={() => drawerStore.close()}>X</button>
 			</div>
 			<button class="btn btn-lg variant-filled-surface w-full">
-				<a href="/location"> <span class="flex-auto">Location</span></a>
+				<a href="/location" class="w-full"> <span class="flex-auto">Location</span></a>
 			</button>
 			<hr />
 			<button class="btn btn-lg variant-filled-surface w-full">
@@ -48,7 +48,7 @@
 			<hr />
 			<button class="btn btn-lg variant-filled-surface w-full">
 				<a
-					href="//https://food.google.com/chooseprovider?restaurantId=/g/1vg4jz59&g2lbs=ALIxsqrTOPfBVdx3E-fl4ms0a0kZ-9_UybVc7TwJnylbnga5VLDtEcG8htYLBoZEGVz_tTRd7D4FpYBWw3-qDWWW7uLaxaNtpv85yNKdteKJtruYm-jCMVs%3D&hl=en-AU&gl=au&ssta=1&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=f18AZJHjJYSM-AbI8Lr4Aw&ei=f18AZJHjJYSM-AbI8Lr4Aw&fo_s=OA,AH&orderType=2&sei=Cd-p6i5KI4WZEZbxVCS6K-eB"
+					href="https://food.google.com/chooseprovider?restaurantId=/g/1vg4jz59&g2lbs=ALIxsqrTOPfBVdx3E-fl4ms0a0kZ-9_UybVc7TwJnylbnga5VLDtEcG8htYLBoZEGVz_tTRd7D4FpYBWw3-qDWWW7uLaxaNtpv85yNKdteKJtruYm-jCMVs%3D&hl=en-AU&gl=au&ssta=1&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=f18AZJHjJYSM-AbI8Lr4Aw&ei=f18AZJHjJYSM-AbI8Lr4Aw&fo_s=OA,AH&orderType=2&sei=Cd-p6i5KI4WZEZbxVCS6K-eB"
 				>
 					<span class="flex-auto">Menu </span></a
 				>
@@ -60,7 +60,7 @@
 			<hr />
 			<button class="btn btn-lg variant-filled-surface w-full">
 				<a
-					href="/https://food.google.com/chooseprovider?restaurantId=/g/1vg4jz59&g2lbs=ALIxsqrTOPfBVdx3E-fl4ms0a0kZ-9_UybVc7TwJnylbnga5VLDtEcG8htYLBoZEGVz_tTRd7D4FpYBWw3-qDWWW7uLaxaNtpv85yNKdteKJtruYm-jCMVs%3D&hl=en-AU&gl=au&ssta=1&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=f18AZJHjJYSM-AbI8Lr4Aw&ei=f18AZJHjJYSM-AbI8Lr4Aw&fo_s=OA,AH&orderType=2&sei=Cd-p6i5KI4WZEZbxVCS6K-eB"
+					href="https://food.google.com/chooseprovider?restaurantId=/g/1vg4jz59&g2lbs=ALIxsqrTOPfBVdx3E-fl4ms0a0kZ-9_UybVc7TwJnylbnga5VLDtEcG8htYLBoZEGVz_tTRd7D4FpYBWw3-qDWWW7uLaxaNtpv85yNKdteKJtruYm-jCMVs%3D&hl=en-AU&gl=au&ssta=1&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=f18AZJHjJYSM-AbI8Lr4Aw&ei=f18AZJHjJYSM-AbI8Lr4Aw&fo_s=OA,AH&orderType=2&sei=Cd-p6i5KI4WZEZbxVCS6K-eB"
 				>
 					<span class="flex-auto">Order </span></a
 				>
